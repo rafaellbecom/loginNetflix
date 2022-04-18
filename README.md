@@ -10,4 +10,4 @@ Projeto pessoal de clone do front-end das páginas de login e perfis da <a href=
 ## :memo: Direitos:
 O projeto "Clone login e perfis Netflix" foi desenvolvido apartir do Website da <a href="https://www.netflix.com/browse">Netflix</a>, apenas por fins educacionais sem nenhuma pretenção comercial.
 ## :eye: Visualização:
-<a href="http://rafaellbecom.github.io/Clone-Trello">Visualize o projeto em funcionamento</a>
+<a href="https://rafaellbecom.github.io/logineperfil-netflix/">Visualize o projeto em funcionamento</a>
