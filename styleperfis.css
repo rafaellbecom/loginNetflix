@@ -1,0 +1,92 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #141414;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo{
+    background-image: linear-gradient(to top, #141414, black);
+}
+
+#logo img{
+    width: 125px;
+    margin-left: 37px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    margin: auto;
+    width: 90%;
+    max-width: 590px;
+}
+
+.container h1{
+    font-size: 4.0rem;
+    color: white;
+    font-weight: 500;
+}
+
+.container #perfis{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container #perfis img{
+    width: 170px;
+    border-radius: 5px;
+    margin: 0px 15px;
+}
+
+.container #perfis img:hover{
+    border: 5px solid white;
+}
+
+.container #perfis h2{
+    font-size: 2.0rem;
+    text-align: center;
+    color: #87827C;
+    font-weight: 500;
+}
+
+button{
+    margin-top: 18px;
+    padding: 10px 40px;
+    background-color: #141414;
+    border: 1px solid #87827C;
+    font-size: 1.6rem;
+    color: #87827C;
+    letter-spacing: 2px;
+}
+
+button:hover{
+    background-color: #141414;
+    border: 1px solid white;
+    color: white;
+}
+
+@media (max-width: 680px){
+    .container #perfis{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 460px){
+    html{
+        font-size: 50%;
+    }
+}
